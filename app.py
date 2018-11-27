@@ -5,7 +5,7 @@ app = Chalice(app_name='karaokay-backend')
 
 @app.route('/')
 def index():
-    return {'karaokay': 'yes please!'}
+    return {'Karaoke?': 'OK!'}
 
 
 # The view function above will return {"hello": "world"}
