@@ -1,6 +1,8 @@
 {
   "name": "karaokay-backend",
   "version": "0.0.0",
+  "description": "Node.js / Express / PostgreSQL API backend for Karaokay, an open source karaoke songbook, song recommendations and playlist tracker app",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -8,9 +10,14 @@
   "dependencies": {
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
-    "express": "~4.16.0",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
-    "morgan": "~1.9.0"
+    "morgan": "~1.9.0",
+    "pg": "^7.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
